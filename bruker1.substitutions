@@ -1,0 +1,11 @@
+file brukerlocal.template
+{
+pattern {S, TA, DN, PORT, ADDR}
+	{BL4A, SE, Bruker, bruker1, 4}
+}
+
+file putCallback.template
+{
+   pattern { P, C, EGU, OUT, IN, TOL, TO }
+   { BL4A:SE:Bruker, FieldSP, T, BL4A:SE:Bruker:FieldSP, BL4A:SE:Bruker:ActualFieldAbs, 0.0005, 600 }
+}

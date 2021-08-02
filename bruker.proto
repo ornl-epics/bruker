@@ -1,0 +1,60 @@
+Terminator = CR;
+LockTimeout = 2000;
+ReplyTimeout = 1500;
+ReadTimeout = 1000;
+WriteTimeout = 1000;
+ExtraInput = ignore;
+
+#This command is used to cancel automatic output broadcast mode cancel
+
+
+#Read Output Current
+ReadCurrent {
+out "CHN/\$1"; in "%fA"
+}
+
+#Read Output Voltage
+ReadVoltage {
+out "CHV/\$1"; in "%fV"
+}
+
+#Read Current SetPoint
+ReadCurrentSP {
+out "CUR/\$1"; in "%fAref"
+}
+
+#Set Current
+SetCurrentSP {
+out "CUR=\$1 %.4f"      #Float precision 4
+}
+
+
+
+#DC power ON/OFF
+SetONOFF  {
+out "DCP=\$1 %d"
+}
+
+
+ReadStatusStr{
+out "STA/\$1"; in "\_%s"
+}
+
+ReadStatusLSB {
+in "\_%2x%*2x%*2x%*2x"
+}
+
+ReadStatusMSB {
+in "\_%*2x%2x%*2x%*2x"
+}
+
+ReadStatusByte {
+in "\_%*2x%*2x%2x%*2x"
+}
+
+ReadStateMachine {
+in "\_%*2x%*2x%*2x%2x"
+}
+
+
+

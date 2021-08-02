@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Bruker</name>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>$(S):StatusStr</pv_name>
+    <x>260</x>
+    <y>337</y>
+    <width>188</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Line Phase Missing</text>
+    <x>49</x>
+    <y>443</y>
+    <width>170</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Temp. Trans, rectifier, or PWM</text>
+    <x>49</x>
+    <y>410</y>
+    <width>207</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>External Security</text>
+    <x>49</x>
+    <y>370</y>
+    <width>140</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>Current Limit Exceeded</text>
+    <x>49</x>
+    <y>513</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>Inrush procedure error</text>
+    <x>49</x>
+    <y>479</y>
+    <width>140</width>
+    <height>17</height>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>Byte Monitor_3</name>
+    <pv_name>$(S):StatusByte</pv_name>
+    <x>256</x>
+    <y>371</y>
+    <width>39</width>
+    <height>170</height>
+    <horizontal>false</horizontal>
+    <square>true</square>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_11</name>
+    <text>Internal Ref Set</text>
+    <x>306</x>
+    <y>520</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>Field Regulation Enabled</text>
+    <x>306</x>
+    <y>500</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>External Ref Enabled</text>
+    <x>305</x>
+    <y>478</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>Current Limit Exceeded</text>
+    <x>305</x>
+    <y>457</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_15</name>
+    <text>Reverse Polarity</text>
+    <x>306</x>
+    <y>437</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_16</name>
+    <text>Normal Polarity</text>
+    <x>306</x>
+    <y>415</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_17</name>
+    <text>DC Power ON</text>
+    <x>306</x>
+    <y>395</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_18</name>
+    <text>Remote Enabled</text>
+    <x>305</x>
+    <y>370</y>
+    <width>160</width>
+    <height>19</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_10</name>
+    <pv_name>$(S):ReadCurrentSP</pv_name>
+    <x>260</x>
+    <y>236</y>
+    <width>188</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_11</name>
+    <pv_name>$(S):ReadOutputCurrent</pv_name>
+    <x>260</x>
+    <y>271</y>
+    <width>188</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_12</name>
+    <pv_name>$(S):ReadOutputVoltage</pv_name>
+    <x>260</x>
+    <y>301</y>
+    <width>188</width>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>$(S):ONOFF</pv_name>
+    <x>260</x>
+    <y>104</y>
+    <width>178</width>
+    <height>17</height>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box</name>
+    <pv_name>$(S):PoleSelector</pv_name>
+    <x>260</x>
+    <y>137</y>
+    <width>178</width>
+    <height>20</height>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>$(S):FieldSP</pv_name>
+    <x>260</x>
+    <y>67</y>
+    <width>178</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(S):FtoINoPoles</pv_name>
+    <x>9</x>
+    <y>547</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>$(S):SelCurrent</pv_name>
+    <x>260</x>
+    <y>204</y>
+    <width>188</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>$(S):FtoIfiveten</pv_name>
+    <x>119</x>
+    <y>547</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>Current SP Read</text>
+    <x>30</x>
+    <y>236</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>Output Current Read</text>
+    <x>30</x>
+    <y>271</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>Output Voltage Read</text>
+    <x>30</x>
+    <y>301</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>$(S):FtoItentwentyfive</pv_name>
+    <x>229</x>
+    <y>547</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>$(S):FtoIfifteenseventy</pv_name>
+    <x>340</x>
+    <y>547</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>$(S):FtoIfifteentwentyfive</pv_name>
+    <x>459</x>
+    <y>547</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_7</name>
+    <pv_name>$(S):FtoIfortysixfifty</pv_name>
+    <x>689</x>
+    <y>547</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_8</name>
+    <pv_name>$(S):FtoIfiftyseventyfive</pv_name>
+    <x>569</x>
+    <y>547</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_9</name>
+    <pv_name>$(S):ItoFNoPoles</pv_name>
+    <x>9</x>
+    <y>577</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_13</name>
+    <pv_name>$(S):ItoFfiveten</pv_name>
+    <x>119</x>
+    <y>577</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_14</name>
+    <pv_name>$(S):ItoFtentwentyfive</pv_name>
+    <x>229</x>
+    <y>577</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_15</name>
+    <pv_name>$(S):ItoFfifteenseventy</pv_name>
+    <x>340</x>
+    <y>577</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_16</name>
+    <pv_name>$(S):ItoFfifteentwentyfive</pv_name>
+    <x>459</x>
+    <y>577</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_17</name>
+    <pv_name>$(S):ItoFfiftyseventyfive</pv_name>
+    <x>569</x>
+    <y>577</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_18</name>
+    <pv_name>$(S):ItoFfortysixfifty</pv_name>
+    <x>689</x>
+    <y>577</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <text>Calculated Field Read</text>
+    <x>30</x>
+    <y>170</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_19</name>
+    <pv_name>$(S):ActualField</pv_name>
+    <x>260</x>
+    <y>170</y>
+    <width>188</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_19</name>
+    <text>Calculated Current from FieldSP</text>
+    <x>30</x>
+    <y>204</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_21</name>
+    <text>Field SP</text>
+    <x>30</x>
+    <y>67</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_22</name>
+    <text>PoleSelector</text>
+    <x>30</x>
+    <y>137</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_23</name>
+    <text>Status String</text>
+    <x>30</x>
+    <y>337</y>
+    <width>219</width>
+    <height>19</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_24</name>
+    <text>Power ON/OFF</text>
+    <x>30</x>
+    <y>104</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_25</name>
+    <text>Bruker</text>
+    <x>20</x>
+    <font>
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <x>580</x>
+    <y>120</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>$(S):StatusByte.B6</pv_name>
+    <x>461</x>
+    <y>104</y>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>$(S):GlobalAlarm</pv_name>
+    <x>262</x>
+    <y>30</y>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_26</name>
+    <text>Global Alarm</text>
+    <x>30</x>
+    <y>30</y>
+    <width>219</width>
+    <height>17</height>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_3</name>
+    <pv_name>$(S):StatusErrLSB.B1</pv_name>
+    <x>20</x>
+    <y>443</y>
+    <on_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_4</name>
+    <pv_name>$(S):StatusErrLSB.B2</pv_name>
+    <x>20</x>
+    <y>410</y>
+    <on_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_5</name>
+    <pv_name>$(S):StatusErrLSB.B3</pv_name>
+    <x>20</x>
+    <y>370</y>
+    <on_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_6</name>
+    <pv_name>$(S):StatusErrMSB.B0</pv_name>
+    <x>20</x>
+    <y>511</y>
+    <on_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_7</name>
+    <pv_name>$(S):StatusErrMSB.B3</pv_name>
+    <x>20</x>
+    <y>478</y>
+    <on_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+</display>
