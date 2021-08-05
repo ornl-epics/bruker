@@ -1,3 +1,6 @@
-# ages
+# BRUKER
+EPICS Driver developed by Mariano Ruiz, zma@ornl.gov
 
-AGES Gas handling
+Bruker power supply basic ASCII commands Addressable.  
+
+EPICS Module ASYN drvAsynIPPortConfigure
